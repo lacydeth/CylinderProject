@@ -47,5 +47,8 @@ namespace CylinderProject.Models
             _radius = newRadius;
             _height = newHeight;
         }
+        public double Radius => _radius;
+        public double Height => _height;
+
     }
 }
